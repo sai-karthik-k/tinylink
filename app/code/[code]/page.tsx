@@ -1,4 +1,6 @@
 // app/code/[code]/page.tsx
+export const dynamic = "force-dynamic";
+
 import { prisma } from "@/lib/db";
 
 interface Props {
